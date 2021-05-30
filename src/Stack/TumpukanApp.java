@@ -21,7 +21,7 @@ public class TumpukanApp {
         tumpukan.pop();
         tumpukan.baca();
         System.out.println(" ");
-        long nilai1=tumpukan.pop();
+        long nilai1=tumpukan.peek();
         System.out.println("nilai top = "+nilai1);
         System.out.println(" ");
     }
